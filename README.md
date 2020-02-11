@@ -1,5 +1,9 @@
 # Digital-electronics-01
 
+#### Table of contents
+
+1. [Labs](#Labs)
+
 | **Computer lab exercise** | **Description** |
 | :-- | :-- |
 | [01-gates](Labs/01-gates) | Lab 1: Git version-control system, Online digital circuit simulator |
