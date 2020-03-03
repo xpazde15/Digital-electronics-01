@@ -19,16 +19,16 @@ The purpose of this laboratory exercise is to design a counter.
 
     &nbsp;
     
-    ![equation](https://latex.codecogs.com/gif.latex?T_%7Bclk%7D%20%3D%20%5Cfrac%7B1%7D%7Bf_%7Bclk%7D%7D%20%3D)
+    ![equation](https://latex.codecogs.com/gif.latex?T_%7Bclk%7D%20%3D%20%5Cfrac%7B1%7D%7Bf_%7Bclk%7D%7D%20%3D) = 0,1ms
     
     &nbsp;
 
     | **Freq** | **Time** | **Number of periods** | **Number of periods in binary** | **Number of periods in hexa** |
     | :-: | :-: | :-: | :-: | :-: |
-    | 100&nbsp;Hz | 10&nbsp;ms |  |  |  |
-    | 4&nbsp;Hz | 250&nbsp;ms |  |  |  |
-    | 2&nbsp;Hz | 500&nbsp;ms |  |  |  |
-    | 1&nbsp;Hz | 1&nbsp;sec |  |  |  |
+    | 100&nbsp;Hz | 10&nbsp;ms | 100 | 1111101000 | 3E8 |
+    | 4&nbsp;Hz | 250&nbsp;ms | 2500 | 100111000100 | 9C4 |
+    | 2&nbsp;Hz | 500&nbsp;ms | 5000 | 1001110001000 | 1388 |
+    | 1&nbsp;Hz | 1&nbsp;sec | 10000 | 10011100010000 | 2710 |
 
 2. See how to create a [synchronous operation](https://github.com/tomas-fryza/Digital-electronics-1/wiki/VHDL-cheat-sheet#processes) in the VHDL.
 
