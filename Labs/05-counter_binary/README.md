@@ -25,7 +25,7 @@ The purpose of this laboratory exercise is to design a counter.
 
     | **Freq** | **Time** | **Number of periods** | **Number of periods in binary** | **Number of periods in hexa** |
     | :-: | :-: | :-: | :-: | :-: |
-    | 100&nbsp;Hz | 10&nbsp;ms | 100 | 1111101000 | 3E8 |
+    | 100&nbsp;Hz | 10&nbsp;ms | 100 | 1111101000 | 64 |
     | 4&nbsp;Hz | 250&nbsp;ms | 2500 | 100111000100 | 9C4 |
     | 2&nbsp;Hz | 500&nbsp;ms | 5000 | 1001110001000 | 1388 |
     | 1&nbsp;Hz | 1&nbsp;sec | 10000 | 10011100010000 | 2710 |
