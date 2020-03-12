@@ -113,11 +113,20 @@ begin
     --------------------------------------------------------------------
     -- Sub-block of clock_enable entity. Create s_en signal.
     --- WRITE YOUR CODE HERE
+    clock_enable: entity work.clock_enable
+        generic map (g_NPERIOD=>x"0028")
+        port map (
+                  clk_i=>clk_i,
+                  srst_n_i=>srst_n_i,
+                  clock_enable_o=>s_en
+                 );
 
 
     --------------------------------------------------------------------
     -- Sub-block of hex_to_7seg entity
     --- WRITE YOUR CODE HERE
+    hex_to_7seg: entity work.hex_to_7seg
+    
 
 
     --------------------------------------------------------------------
@@ -131,8 +140,14 @@ begin
         if rising_edge(clk_i) then  -- Rising clock edge
             if srst_n_i = '0' then  -- Synchronous reset (active low)
                 -- WRITE YOUR CODE HERE
+                
+            s_cnt <= (others => '0');
+
             elsif s_en = '1' then
                 -- WRITE YOUR CODE HERE
+                
+            s_cnt <= s_cnt +1;
+                
             end if;
         end if;
     end process p_select_cnt;
@@ -146,12 +161,24 @@ begin
         case s_cnt is
         when "00" =>
             -- WRITE YOUR CODE HERE
+        data_o <= data0_i;
+        dp_o <= dp_i (0);
+        dig_o <= "1110";
         when "01" =>
             -- WRITE YOUR CODE HERE
+        data_o <= data1_i;
+        dp_o <= dp_i (1);
+        dig_o <= "1101";
         when "10" =>
             -- WRITE YOUR CODE HERE
+        data_o <= data2_i;
+        dp_o <= dp_i (2);
+        dig_o <= "1011";
         when others =>
             -- WRITE YOUR CODE HERE
+        data_o <= data3_i;
+        dp_o <= dp_i (3);
+        dig_o <= "0111";
         end case;
     end process p_mux;
 
