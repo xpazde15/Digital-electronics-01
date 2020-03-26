@@ -87,3 +87,7 @@ Your repository must include `README.md` file with simulation screenshot(s), nex
    Explain how the intersection throughput is maximized.
 
    Draw a state diagram of your implementation.
+
+## Screenshot of the simulation
+
+    ![screen1](https://github.com/xpazde15/Digital-electronics-1/blob/master/Images/traffic.JPG)
