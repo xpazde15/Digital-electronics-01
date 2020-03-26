@@ -5,11 +5,11 @@ use ieee.numeric_std.all;
 entity Krizovatka is 
 
 port(
-		clk_i:      in STD_LOGIC;
+	clk_i:      in STD_LOGIC;
         srst_n_i:   in STD_LOGIC;
         ce_2Hz_i :  in STD_LOGIC;	 
         svetla_o:   out unsigned (6-1 downto 0) -- 6 bits/LEDs coming out
-	);
+);
 
 end entity Krizovatka;
 
@@ -38,7 +38,7 @@ begin
 CLOCK: entity work.clock_enable
 generic map(g_NPERIOD => x"000A")
 port map(
-		clk_i => clk_i,
+	clk_i => clk_i,
         srst_n_i => srst_n_i,
         clock_enable_o => s_en
         );
@@ -53,7 +53,7 @@ if rising_edge(clk_i) then
 						state <= s0;
    						count <= X"0";
     
-    elsif rising_edge(clk_i) and ce_2Hz_i = '1' then
+	elsif rising_edge(clk_i) and ce_2Hz_i = '1' then
     								case state is
                                     
                                    	 when s0 =>
@@ -121,13 +121,13 @@ Prirazeni_svetel: process (state)
 begin
 
 	case state is
-		when s0     => svetla_o <= "100000";
+	when s0     => svetla_o <= "100000";
     	when s1     => svetla_o <= "010000";
- 	    when s2     => svetla_o <= "001000";
- 	    when s3     => svetla_o <= "000100";
- 	    when s4     => svetla_o <= "000010";
- 	    when s5     => svetla_o <= "000001";
-   	    when others => svetla_o <= "100000";
+ 	when s2     => svetla_o <= "001000";
+ 	when s3     => svetla_o <= "000100";
+ 	when s4     => svetla_o <= "000010";
+ 	when s5     => svetla_o <= "000001";
+   	when others => svetla_o <= "100000";
 	end case;
 
 end process;
