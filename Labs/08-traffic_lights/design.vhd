@@ -17,13 +17,14 @@ end entity Krizovatka;
 architecture Krizovatka of Krizovatka is
 
 type stav_svetel is (s0, s1, s2, s3, s4, s5);
-					-- s0 GREEN  RED:    5s
-                    -- s1 ORANGE RED:    1s
-                    -- s2 RED    RED:    1s
-                    -- s3 RED    GREEN:  5s
-                    -- s4 RED    ORANGE: 1s
-                    -- s5 RED    RED:    1s
-
+	
+		    -- we couldn't figured out something more "meaningful", so here's the explanation:
+		    -- s0: GREEN  RED:    5s
+                    -- s1: ORANGE RED:    1s
+                    -- s2: RED    RED:    1s
+                    -- s3: RED    GREEN:  5s
+                    -- s4: RED    ORANGE: 1s
+                    -- s5: RED    RED:    1s
 
 signal count: unsigned(4-1 downto 0);
 constant SEC5: unsigned(4-1 downto 0) := "1111"; -- 15 -> 5s
@@ -132,13 +133,3 @@ begin
 end process;
 
 end Krizovatka;
-    
-
-                                      
-                                      
-                                    	
-                                    
-
-
-
-
