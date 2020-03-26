@@ -11,11 +11,11 @@ architecture tb of testbench is
 component Krizovatka is
 
 port(
-		clk_i:     in STD_LOGIC;
+	clk_i:     in STD_LOGIC;
         srst_n_i:  in STD_LOGIC;
         ce_2Hz_i : in STD_LOGIC;
         svetla_o:  out unsigned (6-1 downto 0)
-	);
+);
 
 end component Krizovatka;
 
@@ -29,8 +29,8 @@ begin
     port map(
      		clk_i => s_clk_i, 
      		srst_n_i => s_srst_n_i, 
-            ce_2Hz_i => s_ce_2Hz_i,
-            svetla_o => s_svetla_o
+		ce_2Hz_i => s_ce_2Hz_i,
+		svetla_o => s_svetla_o
     		);
 
 clk_gen: process
@@ -64,5 +64,6 @@ stim_proc: process
       
       wait;
    end process;
+
 end tb;
 
