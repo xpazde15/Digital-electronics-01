@@ -90,4 +90,4 @@ Your repository must include `README.md` file with simulation screenshot(s), nex
 
 ## Screenshot of the simulation
 
-    ![traffic.JPG](https://github.com/xpazde15/Digital-electronics-1/blob/master/Images/traffic.JPG)
+    ![traffic](https://github.com/xpazde15/Digital-electronics-1/blob/master/Images/traffic.JPG)
