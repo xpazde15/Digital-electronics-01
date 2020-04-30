@@ -25,13 +25,13 @@ Promítání dekadických cifer na display z binárních hodnot zařizuje "hex_t
 
 ## Screenshots
 INs a OUTs TOP modulu
-<https://github.com/xpazde15/Digital-electronics-1/blob/master/Images/111.png/>
+![111](111.png)
 
 VNITŘNÍ STRUKTURA TOP
-<https://github.com/xpazde15/Digital-electronics-1/blob/master/Images/222.png/>
+![222](222.png)
 
 PRŮBĚH TESTBENCHE
-<https://github.com/xpazde15/Digital-electronics-1/blob/master/Images/333.png/>
+![333](333.png)
 
 ## References
 
