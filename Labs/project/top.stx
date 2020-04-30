@@ -1,0 +1,48 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Betka/Desktop/Ultrasonic-sensor-master/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Betka/Desktop/Ultrasonic-sensor-master/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Betka/Desktop/digi_paz1/Ultrasonic-sensor-master/binary_cnt.vhd" in Library work.
+Architecture behavioral of Entity binary_cnt is up to date.
+Compiling vhdl file "C:/Users/Betka/Desktop/digi_paz1/Ultrasonic-sensor-master/hex_to_7seg.vhd" in Library work.
+Architecture behavioral of Entity hex_to_7seg is up to date.
+Compiling vhdl file "C:/Users/Betka/Desktop/Ultrasonic-sensor-master/one_of_four.vhd" in Library work.
+Architecture behavioral of Entity one_of_four is up to date.
+Compiling vhdl file "C:/Users/Betka/Desktop/digi_paz1/Ultrasonic-sensor-master/mereni_pulzu.vhd" in Library work.
+Architecture behavioral of Entity vzdalenost is up to date.
+Compiling vhdl file "C:/Users/Betka/Desktop/digi_paz1/Ultrasonic-sensor-master/binary_to_bcd.vhd" in Library work.
+Architecture behaviour of Entity binary_bcd is up to date.
+Compiling vhdl file "C:/Users/Betka/Desktop/digi_paz1/Ultrasonic-sensor-master/op.vhd" in Library work.
+Architecture behavioral of Entity op is up to date.
+Compiling vhdl file "C:/Users/Betka/Desktop/Ultrasonic-sensor-master/disp_mux.vhd" in Library work.
+Architecture behavioral of Entity driver_7seg is up to date.
+Compiling vhdl file "C:/Users/Betka/Desktop/Ultrasonic-sensor-master/top.vhd" in Library work.
+Architecture behavioral of Entity top is up to date.
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.34 secs
+ 
+--> 
+
+Total memory usage is 4484860 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

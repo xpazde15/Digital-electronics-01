@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Betka/Desktop/Ultrasonic-sensor-master/top.xst" -ofn "C:/Users/Betka/Desktop/Ultrasonic-sensor-master/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc coolRunner.ucf -p xc2c256-TQ144-6 top.ngc top.ngd  

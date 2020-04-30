@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Betka/Desktop/Ultrasonic-sensor-master/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Betka/Desktop/Ultrasonic-sensor-master/xst"
+elaborate
+-ifn top.prj
+-ifmt mixed
